@@ -1,7 +1,7 @@
 /*
 Theme Name: العلامة للتقنية
 Theme URI: https://al3lama.ly
-Author: Rasma Marketing
+Author: Rasma Marketing  
 Author URI: https://github.com/rasmawf-hue
 Description: قالب ووردبريس احترافي لشركة العلامة للحاسبات والتقنية - حلول تقنية متكاملة في ليبيا. يدعم اللغة العربية بالكامل مع تصميم متجاوب واحترافي.
 Version: 1.0.0
@@ -473,4 +473,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover .feature-icon {
+    transform: scale(1.1);
+}
+
+.feature-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #1a1
